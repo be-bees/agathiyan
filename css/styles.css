@@ -6,6 +6,9 @@ body {
   font-size: 1em;
 
 }
+meta {
+  margin: 0 auto;
+}
 
 h1 {
   margin: 50px auto 0 auto;
@@ -33,7 +36,7 @@ h3 {
 }
 
 .intro {
-  width: 50%;
+  width: 45%;
   margin :auto;
 }
 
@@ -125,7 +128,9 @@ td {
 }
 
 .project-container {
-    margin: 100px 0;
+    background-color:#8ab6d6;
+    margin: 3% 0;
+    padding: 3% 0;
 }
 
 .project-row {
@@ -134,16 +139,19 @@ td {
   text-align: left;
 }
 
+.project-text {
+  color: #feffde;
+}
 .websame-img {
   width: 25%;
   float: left;
-  margin-right: 30px;
+  margin-right: 7%;
 }
 
 .dog-img {
   width: 25%;
   float: right;
-  margin-left: 30px;
+  margin-left: 7%;
 }
 
 
@@ -160,7 +168,7 @@ td {
 
 
 .contact-container{
-  padding: 0 35% 40px;
+  padding: 0 20% 40px;
   text-align: center;
 }
 
@@ -173,9 +181,11 @@ td {
 }
 
 .top-link {
-  position: absolute;
-  left: 90%;
+  /* position: absolute;
+  left: 90%; */
   color: #fff;
+  line-height:4rem;
+  font-weight: bolder;
 }
 
 @media (max-width : 700px) {
@@ -234,4 +244,17 @@ table, th, td {
 .center {
   margin-left: 0;
   margin-right: auto;
+}
+
+
+
+@media (max-width : 350px) {
+ body{
+   margin: 0;
+   text-align:center;
+   font-family: 'Merriweather', serif;
+   font-size: .75em;
+
+
+ }
 }
