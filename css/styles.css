@@ -55,8 +55,23 @@ h3 {
 
 .sub-middle-container {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
+.sub-middle-container .center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sub-middle-container .center .row-1, .sub-middle-container .center .row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
 
 .bottom-container {
   padding: 50px 0 30px;
@@ -243,10 +258,10 @@ table, th, td {
 
   border-collapse: collapse;
 }
-.center {
+/* .center {
   margin-left: 0;
   margin-right: auto;
-}
+} */
 
 
 
